@@ -17,7 +17,7 @@ This project demonstrates the end-to-end automation of deploying microservices i
 - Checkout service
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Cloud**: AWS (EC2, EKS, IAM, VPC)
 - **CI/CD**: Jenkins
@@ -27,7 +27,7 @@ This project demonstrates the end-to-end automation of deploying microservices i
 
 ---
 
-## 🏗️ Infrastructure Setup
+##  Infrastructure Setup
 
 ### 1. EC2 Base Server
 - **AMI**: Ubuntu 24
@@ -195,7 +195,7 @@ aws eks update-kubeconfig --region ap-southeast-1 --name EKS-1
   ```bash
   kubectl describe secret mysecretname -n webapps
   ```
-## 🔧 Essential Tools Installed
+##  Essential Tools Installed
 
 - Installed via shell script:
   ```bash
@@ -251,7 +251,7 @@ aws eks update-kubeconfig --region ap-southeast-1 --name EKS-1
   ```bash
   bash install.sh
   ```
-# 🧪 Jenkins Setup
+#  Jenkins Setup
 - Go to browser and type public_ip:8080
 ![jenkin](https://github.com/user-attachments/assets/12410ce8-44b2-4efd-a526-6ec16b6f9ed5)
 - Run the command to get a password:
